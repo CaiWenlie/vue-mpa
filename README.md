@@ -1,15 +1,12 @@
 #
 
-> this is a project for sinaifloan
+> this is a vue mpa(multi-page-application) project
 
 ## Build Setup
 
 ``` bash
 # install dependencies
 npm install
-
-# serve with hot reload at localhost:3000
- gulp serve or gulp default
 
 
 ## 结构
@@ -36,7 +33,3 @@ npm install
 `/modules/*`中每个`entry.js`会生成一个单独的`index.html`
 
 页面`/modules/hello/index.vue`，实际访问路径为，`/pages/moduleName`
- 
-
-## ps:
-# svn 不上传dist文件与包依赖
