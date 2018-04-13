@@ -7,11 +7,12 @@
 ``` bash
 # install dependencies
 npm install
+```
 
 
 ## 结构
 
-
+```
 ┏━ dist 生产环境静态资源
 ┣━ node_modules 包依赖
 ┣━ build webpack相关配置
@@ -25,7 +26,6 @@ npm install
 ┃  ┃   ┣━ common 公共组件（跨项目使用）
 ┃  ┃   ┣━ view 项目组件
 ┃  ┣━ modules 页面文件
-
 
 ```
 
