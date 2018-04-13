@@ -36,7 +36,7 @@ npm install
 `/modules/*`中每个`entry.js`会生成一个单独的`index.html`
 
 页面`/modules/hello/index.vue`，实际访问路径为，`/pages/moduleName`
-
+ 
 
 ## ps:
 # svn 不上传dist文件与包依赖
