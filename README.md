@@ -2,7 +2,7 @@
 
 > this is a vue mpa(multi-page-application) project
 
-## Build Setup
+# Build Setup
 
 ``` bash
 # install dependencies
@@ -10,7 +10,7 @@ npm install
 ```
 
 
-## 结构
+# 结构
 
 ```
 ┏━ dist 生产环境静态资源
@@ -29,7 +29,7 @@ npm install
 
 ```
 
-## 说明
+# 说明
 `/modules/*`中每个`entry.js`会生成一个单独的`index.html`
 
 页面`/modules/hello/index.vue`，实际访问路径为，`/pages/moduleName`
