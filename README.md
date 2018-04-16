@@ -1,4 +1,4 @@
-#
+## vue mpa
 
 > this is a vue mpa(multi-page-application) project
 
@@ -7,6 +7,7 @@
 ``` bash
 # install dependencies
 npm install
+```
 
 # serve with hot reload at localhost:8080
 npm run dev
@@ -14,10 +15,11 @@ npm run dev
 # build for production with minification
 npm run build
 
-```
+
 
 ## 结构
 
+```
 ┏━ dist 生产环境静态资源
 ┣━ node_modules 包依赖
 ┣━ build webpack相关配置
@@ -32,6 +34,7 @@ npm run build
 ┃  ┃   ┣━ view 项目组件
 ┃  ┣━ modules 页面文件
 
+```
 
 ## 说明
 
