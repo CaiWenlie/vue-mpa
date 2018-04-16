@@ -21,17 +21,17 @@ npm run build
 ## 结构
 
 ``` bash
-┏━ dist 生产环境静态资源
+┏━ dist 输出目录
 ┣━ node_modules 包依赖
 ┣━ build webpack相关配置
-┣━ config 环境配置(api地址前缀建议写在这里)
+┣━ config 环境配置
 ┣━ static 静态资源
 ┣━ src  源代码
 ┃  ┣━ assets
 ┃  ┃   ┣━ images 图片资源
 ┃  ┃   ┣━ sass/less 样式文件
 ┃  ┣━ components
-┃  ┃   ┣━ common 公共组件（跨项目使用）
+┃  ┃   ┣━ common 公共组件
 ┃  ┃   ┣━ view 项目组件
 ┃  ┣━ modules 页面文件
 
