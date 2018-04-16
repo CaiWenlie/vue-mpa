@@ -10,8 +10,9 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const OptimizeCSSPlugin = require('optimize-css-assets-webpack-plugin')
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
-
-const env = require('../config/prod.env')
+const argv = require('yargs').argv
+const env = argv.env || 'prod'
+const envConfig = require(`../config/${env}.env`)
 
 const webpackConfig = merge(baseWebpackConfig, {
   module: {
@@ -30,7 +31,7 @@ const webpackConfig = merge(baseWebpackConfig, {
   plugins: [
     // http://vuejs.github.io/vue-loader/en/workflow/production.html
     new webpack.DefinePlugin({
-      'process.env': env
+      'process.env': envConfig
     }),
     new UglifyJsPlugin({
       uglifyOptions: {
